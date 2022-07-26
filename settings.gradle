@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "NativeDemo"
 include ':app'
+include ':nativelib-java'
+include ':nativelib-kotlin'
