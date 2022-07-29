@@ -19,4 +19,10 @@ class MainActivity : AppCompatActivity() {
         var ret2 = KTNativeLib().stringFromJNI()
         Log.i(TAG, "onCreate: ret2 = $ret2")
     }
+
+    override fun onResume() {
+        super.onResume()
+        var ret = NativeLib().stringFromJNI2()
+        Log.i(TAG, "onCreate: ret = $ret")
+    }
 }

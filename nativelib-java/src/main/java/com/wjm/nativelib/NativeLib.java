@@ -12,4 +12,6 @@ public class NativeLib {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+
+    public native String stringFromJNI2();
 }
